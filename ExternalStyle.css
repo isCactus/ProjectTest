@@ -1,0 +1,88 @@
+/*内边距：当两个元素重合时之间的间距 padding*/
+/*外边距：当两个元素不重合时之间的间距 margin*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(244,244,246);
+    /*background: red;*/
+    padding-top:44px ;
+    padding-bottom: 49px;
+}
+
+header {
+    background: rgb(40, 133, 202);
+    color: white;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+.banner_img img{
+    width: 100%;
+    margin-bottom: -10px;
+}
+footer{
+    display: table;
+    width: 100%;
+    background: black;
+    height: 40px;
+    margin-top:10px;
+}
+footer a{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+footer a span{
+    display: block;
+}
+footer{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+ul{
+    display: table;
+    width: 100%;
+    background: rgb(244,244,246);
+    height: 40px;
+}
+ul li{
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.EP_img2 img {
+    width: 100%;
+}
+.word1{
+    text-align: center;
+    background: white;
+}
+.word2{
+    font-size: 4px;
+    text-align: center;
+    background: white;
+    margin-top: -4px;
+}
+.EP_ar div{
+    text-align: center;
+}
+.EP_ar img{
+    width: 100%;
+}
